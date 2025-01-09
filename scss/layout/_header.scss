@@ -1,0 +1,42 @@
+.header {
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__link {
+}
+.header__logo {
+  width: 100%;
+  max-width: 202px;
+}
+.sitenav {
+}
+.sitenav__list {
+  display: flex;
+  gap: 4.2rem;
+}
+.sitenav__item {
+}
+.sitenav__link {
+  @include heading-h4;
+  color: $color-dark-grey;
+}
+
+.sitenav__link:active {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .sitenav__list {
+    gap: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+}

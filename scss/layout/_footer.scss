@@ -1,0 +1,136 @@
+.footer__about-container {
+  width: 100%;
+  max-width: 1075px;
+  background-color: $color-peach;
+  padding: 7.2rem 9.5rem 4.6rem 9.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $color-white;
+  border-radius: 1.5rem;
+}
+
+.about__title {
+  @include heading-h6;
+  width: 100%;
+  max-width: 268px;
+  padding-bottom: 2rem;
+}
+.about__text {
+  @include body-text;
+  width: 100%;
+  max-width: 459px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-btn {
+    margin-top: 3.2rem;
+  }
+
+  .about__title {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+}
+
+.footer__nav {
+  background-color: $color-black;
+}
+
+.footer__designo__wrapper {
+  padding-top: 14.4rem;
+  padding-bottom: 7.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.designo__link {
+}
+.designo__logo {
+  width: 100%;
+  max-width: 202px;
+}
+
+.footernav__list {
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+}
+
+.footernav__link {
+  color: $color-white;
+  @include heading-h4;
+}
+
+.offis__content {
+  display: flex;
+}
+.offis__content__text {
+  @include body-text;
+  font-weight: 400;
+  color: $color-dark-grey;
+  width: 100%;
+  max-width: 350px;
+  margin-bottom: 7.2rem;
+}
+
+.offis__content__title {
+  color: $color-dark-grey;
+  @include body-text;
+  font-weight: 700;
+  margin-right: auto;
+}
+.offis__content__link {
+  color: $color-dark-grey;
+}
+.offis__content__list {
+  display: flex;
+  margin-top: 5.4rem;
+  gap: 1.6rem;
+}
+.offis__content__item {
+}
+.offis__content__item-link {
+}
+.offis__content__image {
+}
+
+@media screen and (max-width: 768px) {
+  .designo__logo {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 6.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer__designo__wrapper {
+    flex-direction: column;
+  }
+  .footernav__list {
+    flex-direction: column;
+  }
+
+  .offis__content {
+    flex-direction: column;
+    padding-bottom: 6.4rem;
+    text-align: center;
+  }
+
+  .offis__content__list {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .offis__content__title {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
