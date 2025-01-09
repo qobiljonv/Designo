@@ -1,0 +1,262 @@
+.canada {
+  padding-bottom: 3.2rem;
+}
+.canada__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.canada__box {
+  width: 100%;
+  max-width: 730px;
+  margin-right: auto;
+  background-color: $color-about;
+  padding: 8.5rem 9.5rem;
+  border-radius: 1.5rem;
+  background-image: url("../../image/contact/desktop/bg-pattern-hero-desktop.svg");
+  background-repeat: no-repeat;
+}
+.canada__title {
+  @include heading-h2;
+  padding-bottom: 2.4rem;
+  color: $color-peach;
+}
+.canada__content {
+  display: flex;
+}
+
+.canada__text {
+  width: 100%;
+  max-width: 255px;
+  @include body-text;
+}
+.canada__content__title {
+  @include body-text;
+  font-weight: 700;
+}
+.offis__content__link {
+}
+.canada__image {
+  width: 100%;
+  max-width: 350px;
+  height: 32rem;
+  border-radius: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .canada__container {
+    flex-direction: column-reverse;
+    margin-bottom: 12rem;
+  }
+
+  .canada__image {
+    width: 100%;
+    max-width: 670px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .canada__container {
+    margin-bottom: 0;
+  }
+
+  .canada__content {
+    flex-direction: column;
+  }
+
+  .canada__box {
+    padding: 8rem 2.4rem;
+    text-align: center;
+  }
+
+  .canada__text {
+    margin-bottom: 1.6rem;
+  }
+
+  .canada__content__title {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+// AUSTRALIA
+
+.australia {
+  padding-bottom: 3.2rem;
+}
+.australia__container {
+  display: flex;
+
+  align-items: center;
+  gap: 3rem;
+}
+
+.container {
+}
+
+.australia__image {
+  width: 100%;
+  max-width: 350px;
+  height: 32rem;
+  border-radius: 1.5rem;
+}
+
+.australia__box {
+  width: 100%;
+  max-width: 730px;
+
+  background-color: $color-about;
+  padding: 8.5rem 9.5rem;
+  border-radius: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.australia__title {
+  @include heading-h2;
+  padding-bottom: 2.4rem;
+  color: $color-peach;
+}
+
+.australia__content {
+  display: flex;
+}
+
+.australia__text {
+  width: 100%;
+  max-width: 255px;
+  @include body-text;
+}
+
+.australia__content__title {
+  @include body-text;
+  font-weight: 700;
+}
+
+.offis__content__link {
+}
+
+@media screen and (max-width: 768px) {
+  .australia__container {
+    flex-direction: column;
+    margin-bottom: 12rem;
+  }
+
+  .australia__image {
+    width: 100%;
+    max-width: 670px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .canada__container {
+    margin-bottom: 0;
+  }
+
+  .australia__content {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .australia__box {
+    padding: 8rem 2.4rem;
+    text-align: center;
+  }
+
+  .australia__text {
+    margin-bottom: 1.6rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .australia__content__title {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.kingdom {
+  padding-bottom: 3.2rem;
+}
+.kingdom__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 10rem;
+}
+
+.kingdom__box {
+  width: 100%;
+  max-width: 730px;
+  margin-right: auto;
+  background-color: $color-about;
+  padding: 8.5rem 9.5rem;
+  border-radius: 1.5rem;
+  background-image: url("../../image/contact/desktop/bg-pattern-hero-desktop.svg");
+  background-repeat: no-repeat;
+}
+.kingdom__title {
+  @include heading-h2;
+  padding-bottom: 2.4rem;
+  color: $color-peach;
+}
+.kingdom__content {
+  display: flex;
+}
+
+.kingdom__text {
+  width: 100%;
+  max-width: 255px;
+  @include body-text;
+}
+.kingdom__content__title {
+  @include body-text;
+  font-weight: 700;
+}
+.kingdom__content__link {
+  color: $color-black;
+}
+.kingdom__image {
+  width: 100%;
+  max-width: 350px;
+  height: 32rem;
+  border-radius: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .kingdom__container {
+    flex-direction: column-reverse;
+    margin-bottom: 12rem;
+  }
+
+  .kingdom__image {
+    width: 100%;
+    max-width: 670px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .kingdom__container {
+    margin-bottom: 12rem;
+  }
+
+  .kingdom__content {
+    flex-direction: column;
+  }
+
+  .kingdom__box {
+    padding: 8rem 2.4rem;
+    text-align: center;
+  }
+
+  .kingdom__text {
+    margin-bottom: 1.6rem;
+  }
+
+  .kingdom__content__title {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
